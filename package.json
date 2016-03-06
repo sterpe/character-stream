@@ -1,0 +1,34 @@
+{
+  "name": "character-stream",
+  "version": "0.0.0",
+  "scripts": {
+    "make": "make $@",
+    "precommit": "make test",
+    "test": "make test"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-jest": "^6.0.1",
+    "babel-preset-es2015": "^6.5.0",
+    "husky": "^0.11.1",
+    "jasmine-reporters": "^1.0.2",
+    "jest-cli": "^0.9.0",
+    "standard": "^6.0.5",
+    "watch": "^0.17.1"
+  },
+  "dependencies": {
+    "mississippi": "^1.2.0"
+  },
+  "description": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/character-stream.git"
+  },
+  "author": "sterpe <srterpe@gmail.com> (https://github.com/sterpe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterpe/character-stream/issues"
+  },
+  "homepage": "https://github.com/sterpe/character-stream#readme"
+}

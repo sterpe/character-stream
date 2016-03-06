@@ -1,0 +1,11 @@
+{
+  "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+  "setupTestFrameworkScriptFile": "<rootDir>/scripts/testsetup.js",
+  "modulePathIgnorePatterns": [
+    "/.node_modules/",
+    "/.npm/"
+  ],
+  "testRunner": "jasmine1",
+  "unmockedModulePathPatterns": [
+  ]
+}
