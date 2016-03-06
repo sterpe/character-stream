@@ -11,6 +11,7 @@ npm i --S character-stream
 
 ### usage
 ```
+const CharacterStream =  require('character-stream')
 ```
 
 ## How do I work on it?
